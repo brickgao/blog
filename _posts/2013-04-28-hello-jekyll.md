@@ -29,7 +29,7 @@ export LANG=en_US.UTF-8
 
 `pygments`中的`linenos`在我的page中也存在问题，这个问题可以通过插件来解决，具体的插件请在我的`repo`中查看
 
-之后在rss订阅中还存在一个bug，如果你的标题中存在`&`符号，会导致`atom.xml`的错误，目前还不知道这个错误是不是普遍发生在jekyll上，待观察。
+<del>之后在rss订阅中还存在一个bug，如果你的标题中存在`&`符号，会导致`atom.xml`的错误，目前还不知道这个错误是不是普遍发生在jekyll上，待观察。</del>通过增加`xml_escape`修复。
 
 这次更新更换了一个主题，风格很干净，自己加了一个`fancybox`插件。
 
