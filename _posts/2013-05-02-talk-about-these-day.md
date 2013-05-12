@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 谈谈近况
-tags: [Diary，Life]
+tags: [Diary, Life]
 ---
 
 {% photo \media\files\2013\05\sakura.jpg \media\files\2013\05\sakura.jpg %}
